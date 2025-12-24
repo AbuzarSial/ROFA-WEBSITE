@@ -262,7 +262,7 @@ export default function ServicesSection() {
                     {/* Deliverables */}
                     {service.deliverables && (
                       <div>
-                        <h4 className="text-xs sm:text-sm font-medium text-gray-300 mb-3 sm:mb-4 uppercase tracking-wider">What You'll Get</h4>
+                        <h4 className="text-xs sm:text-sm font-medium text-gray-300 mb-3 sm:mb-4 uppercase tracking-wider">What You&apos;ll Get</h4>
                         <div className="space-y-2">
                           {service.deliverables.map((deliverable, delIndex) => (
                             <div
