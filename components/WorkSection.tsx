@@ -430,19 +430,16 @@ export default function WorkSection() {
                         <h5 className="text-sm font-medium text-gray-300 mb-2">Backend</h5>
                         <div className="flex flex-wrap gap-2">
                           {projects[selectedProject]?.techStack?.backend?.map((tech, i) => (
-                          <span
-                              key={i}
-                              className="px-2 py-1 text-xs bg-white/10 rounded text-gray-400"
-                               >
-                         {tech}
-                     </span>
-                     ))}
+                            <span key={i} className="px-2 py-1 text-xs bg-white/10 rounded text-gray-400">
+                              {tech}
+                            </span>
+                          ))}
                         </div>
                       </div>
                       <div className="p-4 bg-white/5 border border-white/10 rounded-lg">
                         <h5 className="text-sm font-medium text-gray-300 mb-2">Infrastructure</h5>
                         <div className="flex flex-wrap gap-2">
-                          {projects[selectedProject].techStack?.infrastructure.map((tech, i) => (
+                          {projects[selectedProject]?.techStack?.infrastructure?.map((tech, i) => (
                             <span key={i} className="px-2 py-1 text-xs bg-white/10 rounded text-gray-400">
                               {tech}
                             </span>
@@ -452,7 +449,7 @@ export default function WorkSection() {
                       <div className="p-4 bg-white/5 border border-white/10 rounded-lg">
                         <h5 className="text-sm font-medium text-gray-300 mb-2">Tools & Services</h5>
                         <div className="flex flex-wrap gap-2">
-                          {projects[selectedProject].techStack?.tools.map((tech, i) => (
+                          {projects[selectedProject]?.techStack?.tools?.map((tech, i) => (
                             <span key={i} className="px-2 py-1 text-xs bg-white/10 rounded text-gray-400">
                               {tech}
                             </span>
