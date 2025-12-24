@@ -172,7 +172,7 @@ export default function WorkSection() {
     })
   }
 
-  const handleViewCaseStudy = (e: React.MouseEvent<HTMLButtonElement>, index: number) => {
+  const handleViewCaseStudy = (e: React.MouseEvent<HTMLElement>, index: number) => {
     e.stopPropagation()
     setSelectedProject(index)
     
