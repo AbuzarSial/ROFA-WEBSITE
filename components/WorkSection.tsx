@@ -419,7 +419,7 @@ export default function WorkSection() {
                       <div className="p-4 bg-white/5 border border-white/10 rounded-lg">
                         <h5 className="text-sm font-medium text-gray-300 mb-2">Frontend</h5>
                         <div className="flex flex-wrap gap-2">
-                          {projects[selectedProject].techStack?.frontend.map((tech, i) => (
+                          {projects[selectedProject]?.techStack?.frontend?.map((tech, i) => (
                             <span key={i} className="px-2 py-1 text-xs bg-white/10 rounded text-gray-400">
                               {tech}
                             </span>
