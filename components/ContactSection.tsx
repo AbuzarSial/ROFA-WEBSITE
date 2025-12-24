@@ -221,14 +221,14 @@ export default function ContactSection() {
           ref={titleRef}
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium mb-8 sm:mb-12 tracking-tight"
         >
-          Let's Build
+          Let&apos;s Build
           <br />
           Something Amazing
         </h2>
         <div ref={contentRef} className="flex flex-col md:flex-row gap-8 sm:gap-12 md:gap-24">
           <div className="flex-1">
             <p className="text-base sm:text-lg text-gray-400 mb-6 sm:mb-8 leading-relaxed">
-              Ready to transform your digital presence? Get in touch and let's
+              Ready to transform your digital presence? Get in touch and let&apos;s
               discuss how we can help you achieve your goals.
             </p>
             <div className="space-y-4 sm:space-y-6">
