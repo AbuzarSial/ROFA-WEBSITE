@@ -96,7 +96,10 @@ export default function ScrollIndicator() {
         {sections.map((section, index) => (
           <button
             key={section.id}
-            ref={(el) => (dotsRef.current[index] = el)}
+            ref={(el) => {
+  dotsRef.current[index] = el;
+}}
+
             onClick={() => handleDotClick(section.id, index)}
             className={`relative group w-4 h-4 rounded-full border-2 transition-all duration-300 z-10 ${
               activeSection === section.id
