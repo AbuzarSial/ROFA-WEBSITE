@@ -180,7 +180,7 @@ export default function ContactSection() {
       
       setIsSubmitting(false)
       setSubmitStatus('success')
-      showToast('Message sent successfully! We\'ll get back to you soon.', 'success')
+      showToast('Message sent successfully! We&apos;ll get back to you soon.', 'success')
       
       // Clear localStorage
       localStorage.removeItem('contactFormData')
